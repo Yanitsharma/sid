@@ -55,7 +55,7 @@
     function updateCountdown() {
     let birthday = new Date("2024-06-16");
     let today = new Date();
-    let differenceInTime = birthday.getTime() - today.getTime();
+    let differenceInTime = birthday.getTime() - today.getTime()-19800000
     
     let countdownDisplay = document.getElementById("countdown");
     let days = Math.floor(differenceInTime / (1000 * 60 * 60 * 24));
